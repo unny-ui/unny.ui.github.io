@@ -59,7 +59,8 @@ table {
 tr {
   background-color: #fff;
 }
-tr:nth-child: #f9f9f9;
+tr:nth-child(2n){
+  background-color: #f9f9f9;
 }
 th {
   background: var(--theme-color);
